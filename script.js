@@ -161,8 +161,7 @@ function generatePassword() {
   }
   console.log(passwordChoices.passwordLength);
 
-  for (var i = 0; i < passwordChoices.passwordLength; i++);
-  {
+  for (var i = 0; i < passwordChoices.passwordLength; i++)  {
     var possibleResult = getRandom(possibleResults);
     passwordResults.push(possibleResult);
   }
